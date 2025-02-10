@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+body {
+  background-color: rgb(255, 237, 231);
+  font-family: "Pacifico", serif;
+  color: indianred;
+  font-size: 20px;
+  line-height: normal;
+}
+
+h1, h2, h3 {
+  color: #C70039;
+  font-family: "Meow Script", serif;
+  font-size: 40px;
+  line-height: 1.6;
+}
+
+a {
+color: darkmagenta;
+}
+
+a:hover {
+  color: #780C28;
+  text-decoration: none;
+}
+
+.card {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #F1D3CE;
+  box-shadow: 0 0 5px #F0A8D0
+}
+
+#img-circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+    margin: 0 auto;
+  }
+  .card{
+    width: 700px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+    margin: 0 auto;
+  }
+  .card{
+    width: 500px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px !important;
+    margin: 0 auto;
+  }
+  .card{
+    width: 300px;
+    margin: 0 auto;
+  }
+
+}
